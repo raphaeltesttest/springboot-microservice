@@ -57,7 +57,7 @@ public class JwtTokenUtil implements Serializable {
         return doGenerateToken(claims, userDetails.getUsername());
     }
 
-    //Cria o token e devine tempo de expiração pra ele
+    //Cria o token e define tempo de expiração pra ele
     private String doGenerateToken(Map<String, Object> claims, String subject) {
 
         System.out.println(secret);

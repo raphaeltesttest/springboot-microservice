@@ -1,2 +1,2 @@
 # springboot-microservice
-Spring Boot microservice applications with RabbitMQ
+Spring Boot Microservice Applications with RabbitMQ
